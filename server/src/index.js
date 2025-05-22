@@ -8,6 +8,7 @@ const socket = require("./socket/socket");
 const dotenv = require("dotenv");
 const Chat = require("./models/Chat"); 
 
+
 // middlewares
 const { rateLimiter } = require("./middlewares/rateLimiter"); 
 
@@ -67,6 +68,7 @@ app.use("/chats", chatRoutes);
 app.use("/messages", messageRoutes);
 app.use("/notifications", notificationRoutes);
 app.use("/meetings", meetingRoutes);
+
 
 // route for 404 not found page
 // app.get("*", (req, res) => {

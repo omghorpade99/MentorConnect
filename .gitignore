@@ -1,2 +1,17 @@
-/server/.env
-/.VSCodeCounter
+node_modules/
+/node_modules
+/tests
+/logs
+/tmp
+
+# Root-level .env
+.env
+.env.*
+
+# Client-side environment files
+client/.env
+client/.env.*
+
+# Server-side environment files
+server/.env
+server/.env.*
