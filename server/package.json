@@ -7,6 +7,9 @@
     "start": "node src/index.js",
     "dev": "nodemon TZ='Asia/Calcutta' src/index.js"
   },
+  "engines": {
+    "node": "16.14.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
