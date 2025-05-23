@@ -1,7 +1,6 @@
 node_modules/
 /node_modules
 /tests
-/logs
 /tmp
 
 # Root-level .env
@@ -15,3 +14,10 @@ client/.env.*
 # Server-side environment files
 server/.env
 server/.env.*
+
+# Ignore everything in server/logs
+
+
+# But keep .gitkeep file
+!server/logs/.gitkeep
+
